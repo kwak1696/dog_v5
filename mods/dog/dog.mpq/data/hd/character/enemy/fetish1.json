@@ -250,7 +250,12 @@
                     "filename": "data/hd/items/weapon/knife/_monsters/fetish_knife.json",
                     "overrideBoneName": "",
                     "orientTowardBoneName": "",
-                    "attachmentTransform": {},
+                    "attachmentTransform": {
+                        "scale": {
+                            "x": 5.0,
+                            "y": 5.0,
+                            "z": 5.0
+                        }},
                     "attachmentStateMachineFilename": "",
                     "part": "rhand",
                     "variant": "fbl"
@@ -274,7 +279,12 @@
                     "filename": "data/hd/items/weapon/spear/_monsters/fetish_spear.json",
                     "overrideBoneName": "",
                     "orientTowardBoneName": "",
-                    "attachmentTransform": {},
+                    "attachmentTransform": {
+                        "scale": {
+                            "x": 5.0,
+                            "y": 5.0,
+                            "z": 5.0
+                        }},
                     "attachmentStateMachineFilename": "",
                     "part": "rhand",
                     "variant": "fsp"
