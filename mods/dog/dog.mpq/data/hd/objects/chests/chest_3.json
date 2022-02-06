@@ -82,6 +82,7 @@
       "name": "entity_torso",
       "id": 1442503322,
       "components": [
+        {"type":"TransformDefinitionComponent","name":"entity_torso_TransformDefinition","position":{"x":0.0,"y":0.0,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"scale": { "x": 1.5, "y": 1.5, "z": 1.5 },"inheritOnlyPosition":false},
         {
           "type": "UnitPartComponent",
           "name": "component_part_torso",
