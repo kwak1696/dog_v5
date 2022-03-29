@@ -1,23 +1,17 @@
 {
+    
     "dependencies": {
         "particles": [
             {
-                "path": "data/hd/vfx/particles/overlays/common/battleorders/vfx_battle_orders.particles"
-            },
-            {
-                "path": "data/hd/vfx/particles/overlays/common/fingermagecurse/fingermage_curse.particles"
+                "path": "data/hd/vfx/particles/overlays/common/lightning/ShockhitSm_overlay.particles"
             }
         ],
-        "models": [
-            {
-                "path": "data/hd/vfx/meshes/FX_Mesh_Bless.model"
-            }
-        ],
+        "models": [],
         "skeletons": [],
         "animations": [],
         "textures": [
             {
-                "path": "data/hd/vfx/textures/gradient/T_FX_Mirror_Gradient_02.texture"
+                "path": "data/hd/vfx/textures/mask/TriangleMask_FX_T_NovaMask_01.texture"
             }
         ],
         "physics": [],
@@ -25,22 +19,43 @@
         "variantdata": [],
         "objecteffects": [],
         "other": []
-    },
+    }, 
     "type": "OverlayDefinition",
-    "name": "battleorders",
-    "entities": [
+    "name": "lightning",
+    "entities": [    
         {
             "type": "Entity",
             "name": "entity_root",
-            "id": 3238534566,
+            "id": 1079187010,
             "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "component_vfx",
-                    "filename": "data/hd/vfx/particles/overlays/monster/fingermagecurse/fingermage_curse.particles",
-                    "hardKillOnDestroy": false
-                }
-            ]
+          {
+                "type": "VfxDefinitionComponent",
+                "name": "entity_root_VfxDefinition",
+                "filename": "data/hd/vfx/particles/missiles/high_priest_lightning/highpriestlightning_fx.particles",
+                "hardKillOnDestroy": false
+            },
+         {
+                "type": "TransformDefinitionComponent",
+                "name": "TransformDefinitionComponent002",
+                "position": {
+                    "x": 0,
+                    "y": 1.5,
+                    "z": 0
+                },
+                "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "inheritOnlyPosition": false
+            }
+        ]
         }
     ]
 }

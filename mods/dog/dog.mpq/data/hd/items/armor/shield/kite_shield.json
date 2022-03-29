@@ -1,0 +1,214 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/armor/shield/_monsters/corrupt_rogue_large_shield/corrupt_rogue_large_shield.model"
+            }
+        ],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/armor/shield/_monsters/corrupt_rogue_large_shield/corrupt_rogue_large_shield_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/armor/shield/_monsters/corrupt_rogue_large_shield/corrupt_rogue_large_shield_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/armor/shield/_monsters/corrupt_rogue_large_shield/corrupt_rogue_large_shield_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "corrupt_rogue_large_shield",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "root_entity",
+            "id": 2161166828,
+            "components": [
+                
+                {
+                    "type": "OverrideAttachmentTransformComponent",
+                    "name": "entity_root_OverrideAttachmentTransform",
+                    "playerClassTransforms": {//방패크기조정란. 각 직업별로 설정
+                        "5": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Druid",
+                            "translation": {
+                                "x": -0.15,
+                                "y": -0.1,
+                                "z": -0.05
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 2.0,
+                                "z": 15.0
+                            },
+                            "scale": {
+                                "x": 1.15,
+                                "y": 1.15,
+                                "z": 1.15
+                            }
+                        },
+                        "1": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Sorceress",
+                            "translation": {
+                                "x": 0.2,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        "6": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Assassin",
+                            "translation": {
+                                "x": -0.3,
+                                "y": -0.08,
+                                "z": 0.022
+                            },
+                            "rotation": {
+                                "x": 10.0,
+                                "y": -4.0,
+                                "z": 15.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        "0": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Amazon",
+                            "translation": {
+                                "x": -0.2,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.05,
+                                "y": 1.05,
+                                "z": 1.05
+                            }
+                        },
+                        "2": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Necromancer",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": -0.08
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 8.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 0.97,
+                                "y": 0.97,
+                                "z": 0.97
+                            }
+                        },
+                        "3": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Paladin",
+                            "translation": {
+                                "x": -0.1,
+                                "y": 0.0,
+                                "z": -0.05
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": -5.0,
+                                "z": 5.0
+                            },
+                            "scale": {
+                                "x": 1.15,
+                                "y": 1.15,
+                                "z": 1.15
+                            }
+                        },
+                        "4": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Barbarian",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.1,
+                                "y": 1.1,
+                                "z": 1.1
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "UnitRootComponent",
+                    "name": "root_entity_UnitRootComponent",
+                    "state_machine_filename": "",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "model_entity",
+            "id": 1919685617,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "model_entity_ModelDefinitionComponent",
+                    "filename": "data/hd/items/armor/shield/_monsters/corrupt_rogue_large_shield/corrupt_rogue_large_shield.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        }
+    ]
+}

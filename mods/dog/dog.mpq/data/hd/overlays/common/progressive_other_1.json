@@ -1,0 +1,104 @@
+{
+	"dependencies": {
+		"particles": [
+			{
+				"path": "data/hd/vfx/particles/overlays/common/shrine_resist_fire/vfx_shrine_resist_fire.particles"
+			}
+		],
+		"models": [],
+		"skeletons": [],
+		"animations": [],
+		"textures": [
+			{
+				"path": "data/hd/vfx/textures/gradient/T_FX_Thorn_Gradient.texture"
+			}
+		],
+		"physics": [],
+		"json": [],
+		"variantdata": [],
+		"objecteffects": [],
+		"other": []
+	},
+	"type": "OverlayDefinition",
+	"name": "progressive_other_1",
+	"entities": [
+		{
+			"type": "Entity",
+			"name": "entity_root",
+			"id": 201238954,
+			"components": [
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "component_vfx",
+					"filename": "data/hd/vfx/particles/overlays/common/shrine_resist_fire/vfx_shrine_resist_fire.particles",
+					"hardKillOnDestroy": true
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "entity_root_TransformDefinition",
+					"position": {
+						"x": 0.0,
+						"y": -3.5,
+						"z": 0.0
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"inheritOnlyPosition": false
+				}
+			]
+		},
+		{
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 992020576,
+            "components": [
+                {
+                    "type": "PointLightDefinitionComponent",
+                    "name": "blue_light",
+                    "color": {
+                        "x": 1.0,		//red
+                        "y": 0.0,		//green
+                        "z": 0.0		//blue
+                    },
+                    "power": 10000.0,
+                    "radius": 15.0,
+                    "attenuation": 2.0,
+                    "lightMask": 1,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0,
+                    "isLocalLight": false
+                },
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "entity_root_TransformDefinition",
+					"position": {
+						"x": 0.0,
+						"y": 2.0,
+						"z": 0.0
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"inheritOnlyPosition": false
+				}
+            ]
+        }
+	]
+}
