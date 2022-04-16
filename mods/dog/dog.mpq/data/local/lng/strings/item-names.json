@@ -145,7 +145,8 @@
     "frFR": "[fs]Coiffe",
     "itIT": "[ms]Cappello",
     "koKR": "캡(5e7○2)",
-    "plPL": "[ms]Kaptur",    "esMX": "[ms]Gorro",
+    "plPL": "[ms]Kaptur",
+    "esMX": "[ms]Gorro",
     "jaJP": "キャップ",
     "ptBR": "[ms]Barrete",
     "ruRU": "[ms]наголовник",
@@ -5114,7 +5115,7 @@
     "ruRU": "Ухо",
     "zhCN": "耳朵"
   },
-   {
+  {
     "id": 2236,
     "Key": "gcv",
     "enUS": "Chipped Amethyst",
