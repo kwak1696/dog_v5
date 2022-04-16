@@ -253,7 +253,6 @@
         "fontColor": "$FontColorWhite",
         "alignment": { "h": "center", "v": "center" },
         "options": { "newlineHandling": "standard", "lineWrap": true },
-        "spacing": { "leading": 1.5 },
     },
     "StyleVictoryText": {
         "fontColor": "$FontColorDarkGold",
@@ -432,10 +431,20 @@
             "offset": { "x": 4, "y": 4 },
         },
         "pointSize": "$MediumFontSize",
-        "alignment": { "h": "center" },
-        "options": { "hideOverflow": true },
+        "alignment": { "h": "right" },
     },
-    "SkillHotkeyTextRect": { "x": 30, "y": 3, "width": 128 },
+    "SkillHotkeyTextAltStyle": {
+        "fontColor": "$FontColorLightGold",
+        "dropShadow": {
+            "shadowColor": { "r": 0, "g": 0, "b": 0, "a": 200 },
+            "offset": { "x": 4, "y": 4 },
+        },
+        "pointSize": "$SmallFontSize",
+        "alignment": { "h": "right" },
+        "options": { "lineWrap": true },
+        "spacing": "$MinimumSpacing"
+    },
+    "SkillHotkeyTextRect": { "x": -4, "y": 3, "width": 132, "height": 124 },
     "SkillQuantityTextStyle": {
         "fontColor": "$FontColorBlue",
         "dropShadow": {
@@ -444,7 +453,6 @@
         },
         "pointSize": "$MediumFontSize",
         "alignment": { "h": "left" },
-        "options": { "hideOverflow": true },
     },
     "SkillQuantityTextRect": { "x": 6, "y": 85 },
     "SkillQuantityTextRectController": { "x": 6, "y": 6 },
@@ -530,4 +538,8 @@
     "JoinGameNarrowRect": { "x": 455, "y": 80 },
     "LadderRect": { "x": 1210, "y": 105 },
     "LadderNarrowRect": { "x": 840, "y": 80 },
+
+    // Join game tweaks.
+    "JoinGamePlayerEntryHeight": 100,
+    "JoinGamePlayerNameHeight": 60,
 }

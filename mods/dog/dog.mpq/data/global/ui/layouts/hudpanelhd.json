@@ -129,6 +129,8 @@
                     "fields": {
                         "rect": "$SkillHotkeyTextRect",
                         "style": "$SkillHotkeyTextStyle",
+                        "useAltStyleIfDoesntFit": true,
+                        "altStyle": "$SkillHotkeyTextAltStyle",
                     }
                 },
                 {
@@ -329,6 +331,8 @@
                     "fields": {
                         "rect": "$SkillHotkeyTextRect",
                         "style": "$SkillHotkeyTextStyle",
+                        "useAltStyleIfDoesntFit": true,
+                        "altStyle": "$SkillHotkeyTextAltStyle",
                     }
                 },
                 {

@@ -3,9 +3,18 @@
     "fields": {
         "priority": 300,
         "fitToParent": true,
-        "childFormats": [
-
-			
+        "__delete__childFormats": [
+            { "name": "HelpRun", "rect": { "x": -865, "y": 175 }, "command": "run", "text": "@StrHDHelp1" },
+            { "name": "HelpHighItems", "rect": { "x": -865, "y": 305 }, "command": "showitems", "text": "@StrHDHelp2" },
+            { "name": "HelpStandAttack", "rect": { "x": -865, "y": 240 }, "command": "standstill", "text": "@StrHDHelp3" },
+            { "name": "HelpAutoMap", "rect": { "x": -865, "y": 570 }, "command": "automap", "text": "@StrHDHelp4" },
+            { "name": "HelpGameMenu", "rect": { "x": -865, "y": 505 },"command": "exitmenu", "text": "@StrHDHelp5" },
+            { "name": "HelpchatMode", "rect": { "x": -865, "y": 635 }, "command": "chat", "text": "@StrHDHelp6" },
+            { "name": "Helpskillbind", "rect": { "x": -865, "y": 960 }, "command": [ "skill1", "skill8" ], "text": "@StrHDHelp7" },
+            { "name": "HelpRenderToggle", "rect": { "x": -865, "y": 700 }, "command": "toggle_renderer", "text": "@StrHDHelp8" },
+            { "name": "HelpZoom", "rect": { "x": -865, "y": 765 }, "command": "zoom", "text": "@StrHDHelpZoomDescription" },
+            { "name": "HelpMercenaryScreen", "rect": { "x": -865, "y": 830 }, "command": "hirelingscreen", "text": "@StrHDHelp9" },
+            { "name": "HelpMercenaryPotion", "rect": { "x": -865, "y": 895 }, "command": [ "standstill", "belt1", "belt2", "belt3", "belt4" ], "text": "@StrHDHelp10" },
         ],
     },
     "children": [
@@ -262,6 +271,13 @@
                     }
                 },
                 // Warnings
+                // {
+                //     "type": "ImageWidget", "name": "HostileWarning",
+                //     "fields": {
+                //         "rect": { "x": -75, "y": 0, "scale": 1.5 },
+                //         "filename": "PANEL/hostilepic",
+                //     }
+                // },
                 {
                     "type": "TextBoxWidget", "name": "HostileLabel",
                     "fields": {
@@ -275,7 +291,52 @@
                         }
                     }
                 },
-
+                // {
+                //     "type": "DurabilityWidget", "name": "DurabilityWarning",
+                //     "fields": {
+                //         "rect": { "x": -130, "y": 260 },
+                //         "requiredDamageLevel": "none",
+                //         "lowDamageFraction": 0.5,
+                //         "mediumDamageFraction": 0.8,
+                //         "highDamageFraction": 1.0,
+                //         "damagedAlpha": 1.0,
+                //         "undamagedAlpha": 1.0,
+                //         "unwornAlpha": 1.0,
+                //     }
+                // },
+                // {
+                //     "type": "TextBoxWidget", "name": "DurabilityLabel",
+                //     "fields": {
+                //         "rect": { "x": 0, "y": 565 },
+                //         "text": "@StrHDHelpDurabilityStatus",
+                //         "fontType": "12ptF",
+                //         "style": {
+                //             "fontColor": "$FontColorGoldYellow",
+                //             "pointSize": "$MediumLargeFontSize",
+                //             "alignment": { "v": "center", "h": "center" }
+                //         }
+                //     }
+                // },
+                // {
+                //     "type": "ImageWidget", "name": "AmmoWarning",
+                //     "fields": {
+                //         "rect": { "x": -75, "y": 625 },
+                //         "filename": "PANEL/invwarn",
+                //     }
+                // },
+                // {
+                //     "type": "TextBoxWidget", "name": "AmmoLabel",
+                //     "fields": {
+                //         "rect": { "x": 0, "y": 820 },
+                //         "text": "@StrHDHelpAmmoStatus",
+                //         "fontType": "12ptF",
+                //         "style": {
+                //             "fontColor": "$FontColorGoldYellow",
+                //             "pointSize": "$MediumLargeFontSize",
+                //             "alignment": { "v": "center", "h": "center" }
+                //         }
+                //     }
+                // },
             ]
         },
         // Left Anchored Panel
@@ -285,9 +346,42 @@
                 "anchor": { "x": 0, "y": 0 },
                 "rect": { "x": 250, "y": 250 },
             },
-            "children": [
+            "__delete__children": [
                 // Ally Display
- 
+                {
+                    "type": "ImageWidget", "name": "AllyPortait1",
+                    "fields": {
+                        "rect": { "x": -200, "y": -190, "scale": 1 },
+                        "filename": "PANEL/PortraitFrame",
+                    }
+                },
+                {
+                    "type": "ImageWidget", "name": "AllyPortait2",
+                    "fields": {
+                        "rect": { "x": -200, "y": 14, "scale": 1 },
+                        "filename": "PANEL/PortraitFrame",
+                    }
+                },
+                {
+                    "type": "ImageWidget", "name": "AllyPortait3",
+                    "fields": {
+                        "rect": { "x": -200, "y": 218, "scale": 1 },
+                        "filename": "PANEL/PortraitFrame",
+                    }
+                },
+                {
+                    "type": "TextBoxWidget", "name": "AllyLabel",
+                    "fields": {
+                        "rect": { "x": -200, "y": 395 },
+                        "text": "@StrHDHelpAllyDisplay",
+                        "fontType": "12ptF",
+                        "style": {
+                            "fontColor": "$FontColorGoldYellow",
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": { "v": "center", "h": "left" }
+                        }
+                    }
+                },
             ]
         },
     ]
