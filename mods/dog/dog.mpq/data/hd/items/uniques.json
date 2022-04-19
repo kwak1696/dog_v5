@@ -1630,9 +1630,9 @@
   "ultra": "axe/throwing_axe"
 } },
   { "griffons_eye": {
-  "normal": "circlet/great_helm",
-  "uber": "circlet/great_helm",
-  "ultra": "circlet/great_helm"
+    "normal": "circlet/diadem",
+    "uber": "circlet/tiara",
+    "ultra": "circlet/diadem"
 } },
   { "windhammer": {
   "normal": "hammer/maul",
