@@ -1722,14 +1722,14 @@
     "enUS": "Hold to Populate Belt",
     "zhTW": "按住以移至腰帶",
     "deDE": "Halten, um Gürtel zu füllen",
-    "esES": "Mantén pulsado para llenar el cinturón",
+    "esES": "Enviar al cinturón",
     "frFR": "Maintenez enfoncé pour remplir la ceinture",
     "itIT": "Tieni premuto per riempire la cintura",
     "koKR": "길게 눌러 허리띠로 이동",
     "plPL": "Przytrzymaj, aby zapełnić pas",
-    "esMX": "Mantén pulsado para completar el cinturón",
+    "esMX": "Enviar al cinturón",
     "jaJP": "長押しでベルトに装着",
-    "ptBR": "Segure para preencher o cinto",
+    "ptBR": "Preencher o cinto",
     "ruRU": "Удерживайте, чтобы заполнить ячейки на поясе",
     "zhCN": "按住自动装入腰带"
   },
@@ -2530,7 +2530,7 @@
     "jaJP": "へファストを孤立させよう",
     "ptBR": "Isole Hefasto",
     "ruRU": "Изолируйте Гефасто",
-    "zhCN": "使海法斯托孤立无援"
+    "zhCN": "使赫法斯托孤立无援"
   },
   {
     "id": 26664,
@@ -2547,7 +2547,7 @@
     "jaJP": "へファストは炉から誘い出して孤立させることができる。",
     "ptBR": "É possível atrair Hefasto para longe da forja para isolá-lo.",
     "ruRU": "Гефасто можно увести подальше от кузни и сразиться с ним в одиночку.",
-    "zhCN": "将海法斯托从他的锻炉处引走，使其孤立无援。"
+    "zhCN": "将赫法斯托从他的锻炉处引走，使其孤立无援。"
   },
   {
     "id": 26665,
@@ -4951,10 +4951,10 @@
     "Key": "ControllerPromptAssignFiveStatPoints",
     "enUS": "Assign Five Stat Points",
     "zhTW": "分配五點屬性點數",
-    "deDE": "",
+    "deDE": "Fünf Wertpunkte zuweisen",
     "esES": "Asignar cinco puntos de estadísticas",
-    "frFR": "",
-    "itIT": "",
+    "frFR": "Assigner cinq pts de stat.",
+    "itIT": "Assegna cinque punti caratteristica",
     "koKR": "능력치 포인트 5 할당",
     "plPL": "Przypisz pięć punktów atrybutów",
     "esMX": "Asignar cinco puntos de atributo",
@@ -5034,18 +5034,18 @@
   {
     "id": 27336,
     "Key": "DesecratedIcon",
-    "enUS": "uE037",
-    "zhTW": "uE037",
-    "deDE": "uE037",
-    "esES": "uE037",
-    "frFR": "uE037",
-    "itIT": "uE037",
+    "enUS": "\uE037",
+    "zhTW": "\uE037",
+    "deDE": "\uE037",
+    "esES": "\uE037",
+    "frFR": "\uE037",
+    "itIT": "\uE037",
     "koKR": "\uE037",
-    "plPL": "uE037",
-    "esMX": "uE037",
-    "jaJP": "uE037",
-    "ptBR": "uE037",
-    "ruRU": "uE037",
-    "zhCN": "uE037"
-  }
+    "plPL": "\uE037",
+    "esMX": "\uE037",
+    "jaJP": "\uE037",
+    "ptBR": "\uE037",
+    "ruRU": "\uE037",
+    "zhCN": "\uE037"
+  },
 ]
